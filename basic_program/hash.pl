@@ -13,4 +13,6 @@ $fred{"mountain"} = "valley";
 $fred{"river"} = "mountain";
 @keys = keys(%fred);
 print "keys are @keys\n";
+print "keys are "keys(%fred);
+exit
 
